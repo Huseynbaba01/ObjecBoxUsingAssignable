@@ -4,4 +4,5 @@
     <string name="add">add</string>
     <string name="update">update</string>
     <string name="example_text_here">Example text here</string>
+    <string name="update_student">update student</string>
 </resources>

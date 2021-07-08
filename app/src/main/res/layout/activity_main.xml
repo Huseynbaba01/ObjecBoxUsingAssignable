@@ -40,7 +40,7 @@
         android:layout_width="match_parent"
         android:textSize="20sp"
         android:text="@string/example_text_here"
-        android:textColor="@color/purple_200"
+        android:textColor="@color/purple_700"
         android:layout_height="wrap_content"/>
     </ScrollView>
     <com.google.android.material.button.MaterialButton
@@ -51,7 +51,7 @@
         android:textStyle="bold"
         android:textAllCaps="false"
         android:textSize="23sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/button_update_students"
         />
     <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
@@ -63,7 +63,16 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toTopOf="@+id/button_update"
         />
-
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:textSize="23sp"
+        android:id="@+id/button_update_students"
+        android:text="@string/update_student"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

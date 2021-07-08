@@ -5,7 +5,7 @@
   "entities": [
     {
       "id": "1:4024464873821888732",
-      "lastPropertyId": "2:7382754836938806505",
+      "lastPropertyId": "1:7373250444915913980",
       "name": "School",
       "properties": [
         {
@@ -13,18 +13,13 @@
           "name": "id",
           "type": 6,
           "flags": 131
-        },
-        {
-          "id": "2:7382754836938806505",
-          "name": "name",
-          "type": 9
         }
       ],
       "relations": []
     },
     {
       "id": "2:321644842179452890",
-      "lastPropertyId": "3:715631516429778672",
+      "lastPropertyId": "2:1428211862050966560",
       "name": "Student",
       "properties": [
         {
@@ -40,11 +35,6 @@
           "type": 11,
           "flags": 1548,
           "relationTarget": "School"
-        },
-        {
-          "id": "3:715631516429778672",
-          "name": "name",
-          "type": 9
         }
       ],
       "relations": []
